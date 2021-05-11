@@ -5,10 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { DashbordComponent } from './pages/dashbord/dashbord/dashbord.component';
+import { VehicleComponent } from './pages/vehicle/vehicle/vehicle.component';
+import { ReportsComponent } from './pages/reports/reports/reports.component';
+import { FormComponent } from './component/form/form.component';
+import { MenuComponent } from './component/menu/menu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DashbordComponent,
+    VehicleComponent,
+    ReportsComponent,
+    FormComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
